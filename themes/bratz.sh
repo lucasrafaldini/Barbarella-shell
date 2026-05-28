@@ -1,0 +1,19 @@
+BBL_THEME_NAME="bratz"
+BBL_THEME_LABEL="Bratz"
+BBL_THEME_DARK=1
+
+BBL_C_PRIMARY=165    # purple
+BBL_C_SECONDARY=220  # gold
+BBL_C_ACCENT=198     # hot pink
+BBL_C_MUTED=96       # dark purple
+BBL_C_SUCCESS=148    # yellow-green
+BBL_C_ERROR=196      # red
+BBL_C_GIT=220        # gold
+
+BBL_PROMPT_ICON="💋"
+BBL_PROMPT_CHAR="★"
+BBL_CORNER_TL="┌"
+BBL_CORNER_BL="└"
+BBL_SEP="─"
+BBL_BRACKET_L="【"
+BBL_BRACKET_R="】"
