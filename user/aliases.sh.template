@@ -1,0 +1,19 @@
+# Barbarella — aliases personalizados
+# ──────────────────────────────────────────────────────────────────────────────
+# Edite este arquivo ou use o comando:
+#   bbl alias add <nome> <comando>
+#   bbl alias remove <nome>
+#   bbl alias edit          (abre este arquivo no seu editor)
+#   bbl alias list          (lista todos os seus aliases)
+#
+# Formato:
+#   alias nome='comando aqui'
+#
+# Exemplos:
+#   alias gs='git status'
+#   alias gc='git commit -m'
+#   alias gp='git push'
+#   alias proj='cd ~/Documentos/projetos'
+#   alias serve='python3 -m http.server 8080'
+# ──────────────────────────────────────────────────────────────────────────────
+
