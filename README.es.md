@@ -2,7 +2,8 @@
   <img src="https://img.shields.io/badge/shell-zsh%20%2B%20bash-ff69b4" alt="Shell">
   <img src="https://img.shields.io/badge/temas-7-blueviolet" alt="Temas">
   <img src="https://img.shields.io/badge/bordes-98-hotpink" alt="Bordes">
-  <img src="https://img.shields.io/badge/licencia-MIT-green" alt="Licencia">
+  <a href="https://hacktoberfest.com/"><img src="https://img.shields.io/badge/Hacktoberfest-2026-blueviolet?logo=hacktoberfest" alt="Hacktoberfest"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/licencia-MIT-green" alt="Licencia"></a>
 </p>
 
 <h1 align="center">Barbarella</h1>
@@ -37,8 +38,8 @@ Barbarella transforma tu terminal en algo hermoso. Inspirado en Oh My Zsh e iTer
 ## Instalación
 
 ```bash
-git clone https://github.com/tuusuario/barbarella.git
-cd barbarella
+git clone https://github.com/lucasrafaldini/Barbarella-shell.git
+cd Barbarella-shell
 bash install.sh
 ```
 
@@ -178,8 +179,6 @@ bbl border next           # siguiente borde
     └── aliases.sh.template
 ```
 
-La configuración del usuario se guarda en `~/.config/barbarella/config.sh`.
-
 ## Desinstalar
 
 ```bash
@@ -188,6 +187,25 @@ rm -rf ~/.barbarella ~/.config/barbarella
 
 Luego elimina la linea `source ~/.barbarella/barbarella.*` de tu `.zshrc` / `.bashrc`.
 
+## Contribuir 🎃
+
+¡Barbarella participa en **[Hacktoberfest](https://hacktoberfest.com/)** y recibe contribuciones con los brazos abiertos!
+- ¿Tienes una idea para un tema retro lindo o un borde estilo MSN?
+- ¿Quieres optimizar el rendimiento en Zsh/Bash o agregar nuevos atajos?
+
+Consulta nuestra guía en **[CONTRIBUTING.md](./CONTRIBUTING.md)** y nuestro **[Código de Conducta](./CODE_OF_CONDUCT.md)** para comenzar.
+
+## Contribuidores 💖
+
+Conoce a las personas detras de **Barbarella**:
+
+| Avatar | Nombre | Rol |
+| :---: | :---: | :---: |
+| <img src="https://github.com/lucasrafaldini.png" width="60px" style="border-radius:50%"/> | **[Lucas Rafaldini](https://github.com/lucasrafaldini)** | Creador & Mantenedor |
+| <img src="https://github.com/BarbaraRossi.png" width="60px" style="border-radius:50%"/> | **[Barbara Rossi](https://github.com/BarbaraRossi)** | Contribuidora Principal & Musa |
+
+Consulta la lista completa en [CONTRIBUTORS.md](./CONTRIBUTORS.md).
+
 ## Licencia
 
-MIT
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](./LICENSE) para mas detalles.

@@ -2,7 +2,8 @@
   <img src="https://img.shields.io/badge/shell-zsh%20%2B%20bash-ff69b4" alt="Shell">
   <img src="https://img.shields.io/badge/themes-7-blueviolet" alt="Themes">
   <img src="https://img.shields.io/badge/borders-98-hotpink" alt="Borders">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  <a href="https://hacktoberfest.com/"><img src="https://img.shields.io/badge/Hacktoberfest-2026-blueviolet?logo=hacktoberfest" alt="Hacktoberfest"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
 </p>
 
 <h1 align="center">Barbarella</h1>
@@ -37,8 +38,8 @@ Barbarella turns your terminal into something beautiful. Inspired by Oh My Zsh a
 ## Installation
 
 ```bash
-git clone https://github.com/youruser/barbarella.git
-cd barbarella
+git clone https://github.com/lucasrafaldini/Barbarella-shell.git
+cd Barbarella-shell
 bash install.sh
 ```
 
@@ -178,8 +179,6 @@ bbl border next           # cycle to next border
     └── aliases.sh.template
 ```
 
-User config is stored in `~/.config/barbarella/config.sh`.
-
 ## Uninstall
 
 ```bash
@@ -188,6 +187,25 @@ rm -rf ~/.barbarella ~/.config/barbarella
 
 Then remove the `source ~/.barbarella/barbarella.*` line from your `.zshrc` / `.bashrc`.
 
+## Contributing 🎃
+
+Barbarella participates in **[Hacktoberfest](https://hacktoberfest.com/)** and welcomes contributions of all kinds!
+- Have an idea for a cute retro theme or MSN border?
+- Want to optimize Zsh/Bash performance or add new shortcuts?
+
+Read our **[Contributing Guidelines (CONTRIBUTING.md)](./CONTRIBUTING.md)** and **[Code of Conduct](./CODE_OF_CONDUCT.md)** to get started!
+
+## Contributors 💖
+
+Meet the people behind **Barbarella**:
+
+| Avatar | Name | Role |
+| :---: | :---: | :---: |
+| <img src="https://github.com/lucasrafaldini.png" width="60px" style="border-radius:50%"/> | **[Lucas Rafaldini](https://github.com/lucasrafaldini)** | Creator & Core Maintainer |
+| <img src="https://github.com/BarbaraRossi.png" width="60px" style="border-radius:50%"/> | **[Barbara Rossi](https://github.com/BarbaraRossi)** | Core Contributor & Muse |
+
+See the full list of contributors in [CONTRIBUTORS.md](./CONTRIBUTORS.md).
+
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
